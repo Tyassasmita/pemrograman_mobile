@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="id.dwisasmita.portofoliofragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_inputFragment2"
+            app:destination="@id/inputFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="id.dwisasmita.portofoliofragment.InputFragment"
+        android:label="fragment_input"
+        tools:layout="@layout/fragment_input" >
+        <action
+            android:id="@+id/action_inputFragment_to_hasilFragment"
+            app:destination="@id/hasilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hasilFragment"
+        android:name="id.dwisasmita.portofoliofragment.HasilFragment"
+        android:label="fragment_hasil"
+        tools:layout="@layout/fragment_hasil" >
+        <action
+            android:id="@+id/action_hasilFragment_to_inputFragment"
+            app:destination="@id/inputFragment" />
+    </fragment>
+</navigation>

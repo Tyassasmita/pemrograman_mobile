@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PortofolioFragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="biodata">Nama saya Dwi Sasmita Ayuningtyas. Saat ini saya berusia 21 tahun. Sekarang saya kuliah di STMIK AKAKOM YOGYAKARTA. Saat ini saya mengambil jurusan Sistem Informasi. Nomor Mahasiswa saya 175610004.</string>
+</resources>
