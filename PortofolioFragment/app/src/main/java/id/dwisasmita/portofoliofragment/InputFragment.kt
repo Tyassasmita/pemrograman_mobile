@@ -59,9 +59,9 @@ class InputFragment : Fragment() {
 
         nav = Navigation.findNavController(view)
 
-        buttonEnterBio.setOnClickListener{
-            if (editInput.text.toString().isNotEmpty()){
-                val input :String = editInput.text.toString()
+        EnterBio.setOnClickListener{
+            if (editText.text.toString().isNotEmpty()){
+                val input:String = editText.text.toString()
                 val bundle = Bundle()
                 bundle.putString("args", input)
 

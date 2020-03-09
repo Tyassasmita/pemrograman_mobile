@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import kotlinx.android.synthetic.main.fragment_hasil.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -51,9 +52,9 @@ class HasilFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val hasilFragment:String? = arguments?.getString(key: "args")
+        val hasilFragment:String? = arguments?.getString("args")
 
-        textHasil.text = hasilFragment
+        textView.text = hasilFragment
     }
     override fun onAttach(context: Context) {
         super.onAttach(context)

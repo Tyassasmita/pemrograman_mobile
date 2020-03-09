@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.fragment_hasil.*
+import kotlinx.android.synthetic.main.fragment_home.*
 
 /**
  * A simple [Fragment] subclass.
@@ -28,9 +29,9 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        nav = Navigation.findNavController(View)
+        nav = Navigation.findNavController(view)
 
-        buttonAboutMe.setOnClickListener{
+        AboutMe.setOnClickListener{
             nav.navigate(R.id.action_homeFragment_to_inputFragment2)
         }
     }
