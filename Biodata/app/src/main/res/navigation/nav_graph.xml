@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/page00Fragment">
+
+    <fragment
+        android:id="@+id/page00Fragment"
+        android:name="id.sasmita.biodata.Page00Fragment"
+        android:label="fragment_page00"
+        tools:layout="@layout/fragment_page00" >
+        <action
+            android:id="@+id/action_page00Fragment_to_page01Fragment"
+            app:destination="@id/page01Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/page01Fragment"
+        android:name="id.sasmita.biodata.Page01Fragment"
+        android:label="fragment_page01"
+        tools:layout="@layout/fragment_page01" >
+        <action
+            android:id="@+id/action_page01Fragment_to_page02Fragment"
+            app:destination="@id/page02Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/page02Fragment"
+        android:name="id.sasmita.biodata.Page02Fragment"
+        android:label="fragment_page02"
+        tools:layout="@layout/fragment_page02" >
+        <action
+            android:id="@+id/action_page02Fragment_to_page03Fragment"
+            app:destination="@id/page03Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/page03Fragment"
+        android:name="id.sasmita.biodata.Page03Fragment"
+        android:label="fragment_page03"
+        tools:layout="@layout/fragment_page03" />
+</navigation>

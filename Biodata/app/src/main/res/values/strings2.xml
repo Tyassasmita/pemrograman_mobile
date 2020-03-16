@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Interested</string>
+    <string name="title">Hal yang saya sukai :</string>
+    <string name="p1">+ Saya menyukai dunia seni fotografi.</string>
+    <string name="p2">+ Saya menyukai dunia fashion.</string>
+    <string name="p3">+ Saya menyukai tempat yang memiliki pemandangan yang
+        indah alias instagramable.</string>
+    <string name="bahasa">Bahasa :</string>
+    <string name="jawa">+ Jawa</string>
+    <string name="ind">+ Indonesia</string>
+    <string name="ingg">+ Inggris</string>
+    <string name="kor">+ Korea</string>
+</resources>
