@@ -35,7 +35,7 @@
                     app:srcCompat="@drawable/daisy" />
 
                 <TextView
-                    android:id="@+id/idList"
+                    android:id="@+id/ibList"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="17dp"
